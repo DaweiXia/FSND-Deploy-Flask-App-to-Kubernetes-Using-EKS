@@ -58,7 +58,7 @@ def require_jwt(function):
 
 @APP.route('/', methods=['POST', 'GET'])
 def health():
-    return jsonify("Add DescribeCluster inline policy to user. Healthy Backend!")
+    return jsonify("Add DescribeCluster inline policy to user and role. Healthy Backend!")
 
 
 @APP.route('/auth', methods=['POST'])
