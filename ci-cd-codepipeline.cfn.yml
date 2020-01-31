@@ -56,7 +56,7 @@ Parameters:
 
   KubectlRoleName:
     Type: String
-    Default: xiadw
+    Default: eksctl-simple-jwt-api-cluster-ServiceRole-19535L8VJOL8J
     Description: IAM role used by kubectl to interact with EKS cluster
     MinLength: 3
     MaxLength: 100
