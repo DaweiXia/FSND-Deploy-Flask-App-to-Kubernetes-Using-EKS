@@ -58,8 +58,7 @@ def require_jwt(function):
 
 @APP.route('/', methods=['POST', 'GET'])
 def health():
-    return jsonify("Add DescribeCluster inline policy to user and role. Add Administrator Access to user and role. \
-                                   Healthy Backend! Change role to UdacityFlaskDeployCBKubectlRole and add Administrator Access.")
+    return jsonify("All steps retry. Healthy Backend!")
 
 
 @APP.route('/auth', methods=['POST'])
